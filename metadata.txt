@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=QNeighborhood
+qgisMinimumVersion=3.0
+description=This plugin selects the polygons adjacent to a given polygon
+version=0.1
+author=Salomón Einstein
+email=seramirezf@correo.udistrital.edu.co
+
+about=The user click in the map view on a spatial object from polygonal layer, the spatial objects that are adjacent neighbors of the first one in the same layer are selected. Additionally, the identification attributes of the selected spatial objects are displayed in the plugin window.<br><br><h3>Citation</h3>If you feel like <b>QNeigborhood</b> has made a contribution to your research, please consider citing it using: <br><br><i>Ramírez, S. (2021). QNeighborhood. QGIS 3 plugin version 0.1.</i>
+
+tracker=https://github.com/salomoneinstein/QNeighborhood/issues
+repository=https://github.com/salomoneinstein/QNeighborhood.git
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=analysis, neighbor, neighborhood
+
+homepage=https://salomoneinstein.com
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
