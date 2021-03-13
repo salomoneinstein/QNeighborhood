@@ -234,7 +234,7 @@ class Neighborhood:
         self.cLayer = self.dlg.cbxLayers.currentLayer()
         
         if not self.cLayer:
-            QMessageBox.critical(None,"Missing layer","You must chooice a layer")
+            QMessageBox.critical(None,"Missing layer","You must select a layer")
         else:
 			
             cField = self.dlg.cbxFields.currentField()			
@@ -267,7 +267,7 @@ class Neighborhood:
     def btnClear_clicked(self):
         """Clear field's results"""
         if not self.cLayer:
-            QMessageBox.critical(None,"Missing layer","You must chooice a layer")
+            QMessageBox.critical(None,"Missing layer","You must select a layer")
         else:			
             self.dlg.txtNeighbor.clear()
             self.dlg.txtNeighborhood.clear()

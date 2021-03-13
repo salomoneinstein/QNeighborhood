@@ -90,7 +90,7 @@
     </property>
    </widget>
   </widget>
-  <widget class="QGroupBox" name="gbxChooice">
+  <widget class="QGroupBox" name="gbxChoice">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -100,7 +100,7 @@
     </rect>
    </property>
    <property name="title">
-    <string>Chooice</string>
+    <string>Choice</string>
    </property>
    <widget class="QgsFieldComboBox" name="cbxFields">
     <property name="geometry">
