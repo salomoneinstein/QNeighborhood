@@ -6,7 +6,7 @@
 name=QNeighborhood
 qgisMinimumVersion=3.0
 description=This plugin selects the polygons adjacent to a given polygon
-version=0.1
+version=0.1.1
 author=Salomón Einstein
 email=seramirezf@correo.udistrital.edu.co
 
